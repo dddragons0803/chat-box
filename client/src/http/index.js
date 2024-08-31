@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-    // baseURL: 'https://wlone.onrender.com',
-    baseURL: 'http://localhost:5000/',
+    baseURL: 'https://chat-box-2-pcpn.onrender.com/',
+    // baseURL: 'http://localhost:5000/',
     withCredentials: false,
     headers: {
         'Content-Type': 'application/json',
