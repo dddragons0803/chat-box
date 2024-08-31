@@ -14,8 +14,8 @@ export const App = () => {
   const [showChat, setShowChat] = useState(false);
   const [loader, setLoader] = useState(false);
   const [room, setRoom] = useState('');
-  // const BASE_URL = 'https://wlone.onrender.com';
-  const BASE_URL = 'http://localhost:5000/';
+  const BASE_URL = 'https://chat-box-2-pcpn.onrender.com/';
+  // const BASE_URL = 'http://localhost:5000/';
   const [rightTop, setRightTop] = useState({
     _id: "dfd",
     name: 'room Name',
